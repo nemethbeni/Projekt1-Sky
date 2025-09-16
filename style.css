@@ -1,5 +1,27 @@
+:root {
+    --primary-color: #d38d77;
+
+    --bs-navbar-color: #d38d77;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #d38d77;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: #d38d77;
+    --bs-navbar-toggler-icon-bg-color: #d38d77;   
+}
+
+body {
+    background-color: #120901;
+    color: var(--primary-color);
+}
+
+.bg-dark {
+    background-color: #120901 !important;
+}
+
 header {
-    background-image: url(./1.JPG);
+    background-image: url(./img/1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -17,8 +39,6 @@ header {
     width: 500px;
     height: 90px;
     border-radius: 10px;
-    background-color: #a8d5ba;
-    color: #1b5443;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,17 +48,14 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
-body {
-    background-color: #a8d5ba;
-}
+
 
 #leiras {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 25px;
-    color: #1b5443;
 }
-custom.navbar {
+/* custom.navbar {
     background-color: #1b5443;
-}
+} */
