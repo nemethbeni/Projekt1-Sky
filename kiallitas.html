@@ -4,37 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./nav.css">
+    <link rel="stylesheet" href="./kiallitas.css">
     <title>kiallitas</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fedezőkanunk Sky</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+              aria-controls="navbarMenu" aria-expanded="false" aria-label="Menü megnyitása">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sky.html">SKY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kiallitas.html">Kiállítás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Utódok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Képgaléria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+
+    
     <div class="container mt-5">
+        <h2>Néhány emlékezetes kiállításunk</h2>
         <div class="row justify-content-center g-4">
             <div class="col-md-4">
                 <div class="card h-100">
-                    <img src="img/kiallitas2.jpg" class="card-img-top" alt="Kiállítás 1">
+                    <img src="./img/kiallitas2.jpg" class="card-img-top" alt="Kiállítás 1">
                     <div class="card-body">
-                        <h5 class="card-title text-center" style="color:#d38d77;">2025.07.05 Nagycenk <br> Eredmény: BOB</h5>
+                        <h5 class="card-title text-center" >2025. 07. 05. Nagycenk <br> Eredmény: BOB</h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card h-100">
-                    <img src="img/kiallitas1.jpg" class="card-img-top" alt="Kiállítás 2">
+                    <img src="./img/kiallitas1.jpg" class="card-img-top" alt="Kiállítás 2">
                     <div class="card-body">
-                        <h5 class="card-title text-center" style="color:#d38d77;">2025.06.15. Nyitra, Szlovákia <br> Eredmény: BOB</h5>
+                        <h5 class="card-title text-center" >2025. 06. 15. Nyitra, Szlovákia <br> Eredmény: BOB</h5>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="card h-100">
-                    <img src="img/kiallitas3.jpg" class="card-img-top" alt="Kiállítás 3">
+                    <img src="./img/kiallitas3.jpg" class="card-img-top" alt="Kiállítás 3">
                     <div class="card-body">
-                        <h5 class="card-title text-center" style="color:#d38d77;">2022.05.21. Pápa <br>Eredmény: BOB</h5>
+                        <h5 class="card-title text-center" >2022. 05. 21. Pápa <br>Eredmény: BOB</h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

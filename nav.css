@@ -1,0 +1,25 @@
+:root {
+    --primary-color: #d38d77;
+    --primary-background-color: #120901;
+    --bs-navbar-color: #d38d77;
+    --bs-navbar-hover-color: rgba(255, 255, 255, 0.75);
+    --bs-navbar-disabled-color: rgba(255, 255, 255, 0.25);
+    --bs-navbar-active-color: #fff;
+    --bs-navbar-brand-color: #d38d77;
+    --bs-navbar-brand-hover-color: #fff;
+    --bs-navbar-toggler-border-color: #d38d77;
+    --bs-navbar-toggler-icon-bg-color: #d38d77;   
+}
+
+.custom-navbar .navbar-nav .nav-link,
+.custom-navbar .navbar-brand {
+    color: #d38d77 !important;
+}
+
+body {
+    background-color: var(--primary-background-color);
+    color: var(--primary-color);
+
+}.bg-dark {
+    background-color: rgb(18, 9, 1) !important;
+}

@@ -3,10 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="./sky.css">
+    <link rel="stylesheet" href="./nav.css">
     <title>SKY</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark custom-navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Fedezőkanunk Sky</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+              aria-controls="navbarMenu" aria-expanded="false" aria-label="Menü megnyitása">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarMenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="./index.html">Kezdőlap</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sky.html">SKY</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./kiallitas.html">Kiállítás</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Utódok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Képgaléria</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
     <div id="sky-bemutatas">
         <h2>Sky bemutatása</h2>
         <ul>
@@ -19,5 +50,8 @@
             <li>Otthon csomó plüsse van, amivel órákon át is eljátszik.</li>
         </ul>
     </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
