@@ -41,11 +41,26 @@
     color: #fff;
     background: #d38d77;
     border-radius: 50%;
-    padding: 6px;
-    font-size: 1.2em;
-    margin-right: 12px;
+    padding: 8px;
+    font-size: 1.3em;
+    margin-right: 16px;
     box-shadow: 0 2px 8px rgba(211, 141, 119, 0.12);
+    min-width: 36px;
+    text-align: center;
 }
+
+#sky-bemutatas span.material-symbols-outlined {
+    color: #fff;
+    background: #d38d77;
+    border-radius: 50%;
+    padding: 8px;
+    font-size: 1.3em;
+    margin-right: 16px;
+    box-shadow: 0 2px 8px rgba(211, 141, 119, 0.12);
+    min-width: 36px;
+    text-align: center;
+}
+
 
 #sky-bemutatas .row img {
     height: 260px;
